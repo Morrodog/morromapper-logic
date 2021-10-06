@@ -3,6 +3,6 @@ import CellXY                      from '/src/types/cell-x-y.ts'
 
 import BACKGROUNDMAP_BOUND_LENGTH from '/src/types/backgroundmap-bound-length.ts'
 
-export CellXY CellXY;
-export RasterBackgroundmapMetadata RasterBackgroundmapMetadata;
-export BACKGROUNDMAP_BOUND_LENGTH BACKGROUNDMAP_BOUND_LENGTH;
+export CellXY
+export RasterBackgroundmapMetadata
+export BACKGROUNDMAP_BOUND_LENGTH
