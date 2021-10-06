@@ -1,0 +1,9 @@
+{
+  "name": "morromapper-logic",
+  "version": "1.0.0",
+  "description": "Contains Morromapper logic used by morromapper-components that may also be used in NodeJS in other contexts.",
+  "main": "index.js",
+  "author": "Josh Randall",
+  "license": "MIT",
+  "private": false
+}
