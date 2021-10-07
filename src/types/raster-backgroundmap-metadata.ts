@@ -12,7 +12,7 @@
  * `cellSideLength` and/or `borderWidth` to account for this, it's much simpler (and better for the user) to find
  * a higher-resolution map instead.
  */
-interface RasterBackgroundmapMetadata {
+export default interface RasterBackgroundmapMetadata {
   /**
    * Height of the backgroundmap in pixels.
    */
@@ -68,5 +68,3 @@ interface RasterBackgroundmapMetadata {
    */
   imageURL: string
 }
-
-export default RasterBackgroundmapMetadata
