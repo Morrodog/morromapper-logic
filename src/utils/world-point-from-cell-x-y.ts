@@ -1,7 +1,7 @@
-import WorldPoint from '/src/types/world-point.ts'
-import CellXY     from '/src/types/cell-x-y.ts'
+import WorldPoint from '../types/world-point.ts'
+import CellXY     from '../types/cell-x-y.ts'
 
-import CELL_SIZE from '/src/constants/cell-size.ts'
+import CELL_SIZE from '../constants/cell-size.ts'
 
 /**
  * Given a CellXY, computes the southeastern corner of the cell.

@@ -31,8 +31,8 @@ export default interface RasterBackgroundmapMetadata {
   /**
    * The X coordinate of the leftmost column of the right border of the cell at [0,0].
    *
-   * Note that the Y coordinate is measured as pixels from the bottom of the image.
-   * (Such that the bottom-most row of pixels would be at Y-coordinate 0.)
+   * Note that the X coordinate is measured as pixels from the left side of the image.
+   * (Such that the left-most row of pixels would be at X-coordinate 0.)
    */
   originCellRightBorderX: number;
   /**

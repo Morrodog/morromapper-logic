@@ -1,9 +1,9 @@
-import WorldPoint from '/src/types/world-point.ts'
-import CellXY     from '/src/types/cell-x-y.ts'
+import WorldPoint from '../types/world-point.ts'
+import CellXY     from '../types/cell-x-y.ts'
 
-import CELL_SIZE from '/src/constants/cell-size.ts'
+import CELL_SIZE from '../constants/cell-size.ts'
 
-import worldPointFromCellXY from '/src/utils/world-point-from-cell-x-y.ts'
+import worldPointFromCellXY from '../utils/world-point-from-cell-x-y.ts'
 
 /**
  * Morrowind's cells are each 8196 X units by 8196 Y units such that the southwest corner of the cell has the lowest X and Y coordinates.
